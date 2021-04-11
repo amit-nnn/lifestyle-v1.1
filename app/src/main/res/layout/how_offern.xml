@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:background="@drawable/ic_back"
+        android:padding="@dimen/_8sdp"
+        android:layout_margin="@dimen/_8sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How Often?"
+        android:textSize="@dimen/_24sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/one_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Once a Month"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_twice_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twice a Month"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_once_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Once a Week"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_twice_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twice a week"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_thrice_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3Times a week"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_four_times_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4Times a week"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_5_times_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 Times a week"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_6_times_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6 Times a week"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_everyday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Everyday"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+</LinearLayout>

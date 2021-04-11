@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:background="@drawable/ic_back"
+        android:padding="@dimen/_8sdp"
+        android:layout_margin="@dimen/_8sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which Skill?"
+        android:textSize="@dimen/_24sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/goal_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn Language"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn Code"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_practice_an_instrument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice an Instrument"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_Make_art"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make art"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+    <TextView
+        android:id="@+id/goal_organize_my_life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organize my life"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:textSize="@dimen/_16sdp"/>
+</LinearLayout>
