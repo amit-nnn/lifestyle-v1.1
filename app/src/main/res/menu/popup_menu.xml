@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--add menu items to shoe in pop up menu-->
+
+    <item android:id="@+id/first_btn"
+        android:title="Does not repeat"/>
+    <item android:id="@+id/second_btn"
+        android:title="Every day"/>
+    <item android:id="@+id/third_btn"
+        android:title="Every week"/>
+    <item android:id="@+id/forth_btn"
+        android:title="Every month"/>
+    <item android:id="@+id/fifth_btn"
+        android:title="Every month"/>
+
+</menu>

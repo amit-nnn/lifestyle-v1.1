@@ -11,16 +11,16 @@
         android:layout_gravity="right">
         <Button
             android:id="@+id/profile_edit"
-            android:layout_width="@dimen/_32sdp"
-            android:layout_height="@dimen/_32sdp"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
             android:background="@drawable/ic_edit"
             android:padding="@dimen/_5sdp"
             android:margin="@dimen/_3sdp"
             />
         <Button
             android:id="@+id/settings_btn"
-            android:layout_width="@dimen/_32sdp"
-            android:layout_height="@dimen/_32sdp"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
             android:background="@drawable/ic_settings"
             android:padding="@dimen/_5sdp"
             android:margin="@dimen/_3sdp"
